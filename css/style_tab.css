@@ -9,16 +9,15 @@
 
 }
 
-
 .tabs {
     background-color: #FFFFFF;
 
     width: 184px;
     min-height: 40px;
 
-    margin: 0px 0px -1px 0px;
-    border: 0px;
-    padding: 0px;
+    margin: 0 0 -1px 0;
+    border: 0;
+    padding: 0;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -29,7 +28,7 @@
 
 }
 
-.tab_title{
+.tab_title {
     display: flex;
     align-items: center;
 
@@ -43,7 +42,7 @@
 
 }
 
-.tab_subtitle{
+.tab_subtitle {
     display: flex;
 
     width: 570px;
@@ -59,12 +58,14 @@
 
 }
 
-.tab_menu{
-    border: 1px solid #C6CBCD; border-radius: 0px 0px 0px 5px;
+.tab_menu {
+    border: 1px solid #C6CBCD;
+    border-radius: 0 0 0 5px;
     min-height: 500px;
 
 }
-.download{
+
+.download {
     display: inline-block;
 
     width: 270px;
@@ -72,8 +73,8 @@
 
     margin-top: 27px;
     margin-bottom: 54px;
-    border: 0px;
-    padding: 0px;
+    border: 0;
+    padding: 0;
 
     background-color: #EC7979;
     color: #E5E5E5;
@@ -86,16 +87,20 @@
     line-height: 25px;
 
 }
-.tabs:nth-child(1){
-    border: 1px solid #C6CBCD; border-radius: 5px 5px 0px 0px;
+
+.tabs:nth-child(1) {
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
     width: 203px;
 
 }
-.tab_menu li{
+
+.tab_menu li {
     margin-left: 100px;
 
 }
-.place{
+
+.place {
     display: flex;
 
     width: 470px;
@@ -106,13 +111,14 @@
     top: 40px;
 
 }
-.transparent_line{
+
+.transparent_line {
     position: absolute;
     left: 1px;
 
     width: 199px;
 
-    margin: 0px;
+    margin: 0;
 
     border: 1px solid #FFFFFF;
 
