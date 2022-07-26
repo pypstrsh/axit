@@ -1,10 +1,7 @@
-body {
-    background: #E5E5E5;
-}
-
 .title {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -13,27 +10,24 @@ body {
     text-transform: uppercase;
     line-height: 42px;
 
-    align-items: center;
-
-    height: 150px;
+    min-height: 150px;
 
     color: #000000;
-
 
 }
 
 .under_title {
     width: 170px;
 
+    color: #EC7979;
     border: 1px solid #EC7979;
+
     margin-top: 0px;
     margin-bottom: 0px;
-
 
 }
 
 .subtitle {
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -45,6 +39,7 @@ body {
     color: #86878B;
     margin-top: 40px;
     margin-bottom: 110px;
+
 }
 
 .main_block {
@@ -52,21 +47,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     width: 1510px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+
+    margin: 50px auto;
 
 }
 
 .awesome_block {
-
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     width: 1170px;
-    height: auto;
+
+    margin-top: 50px;
+
 }
 
 .menu_container {
@@ -74,32 +70,40 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+
     box-sizing: border-box;
+    padding-bottom: 58px;
+
 }
 
 
 .menu_block:first-child {
     margin-right: 25px;
+
 }
+
 
 .menu_block:last-child {
     margin-left: 25px;
+
 }
 
 
 .list_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     box-sizing: border-box;
 
     width: 92px;
-    height: 92px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 92px;
+
     margin: auto;
 
     border-radius: 50%;
     border: 1px solid #EC7979;
+
 }
 
 
@@ -108,33 +112,33 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
     text-transform: capitalize;
+
     width: 370px;
+    min-height: 100px;
 
     color: #000000;
     margin-top: 39px;
-
-
-    height: 100px;
 
 }
 
 
 .list_subtitle {
-
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+
     text-align: center;
     align-items: center;
+
     margin-top: 8px;
 
     width: 370px;
@@ -148,9 +152,9 @@ body {
 
 }
 
-.awesome_block{
+.awesome_block {
     display: flex;
-    position: relative;
+
 }
 
 

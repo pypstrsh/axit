@@ -1,74 +1,79 @@
-body {
-    background: #E5E5E5;
-
-}
-
 .tabs_block {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     width: 1170px;
-    height: 540px;
+    min-height: 540px;
 
 }
 
 
 .tabs {
-    background: #E5E5E5;
+    background-color: #FFFFFF;
+
     width: 184px;
-    height: 40px;
+    min-height: 40px;
+
     margin: 0px 0px -1px 0px;
     border: 0px;
     padding: 0px;
-    text-transform: uppercase;
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
+    text-transform: uppercase;
+
 }
 
 .tab_title{
-
     display: flex;
-    width: 570px;
-    height: 124px;
     align-items: center;
+
+    width: 570px;
+    min-height: 124px;
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
+
 }
 
 .tab_subtitle{
-    margin-top: 27px;
     display: flex;
+
     width: 570px;
-    height: 210px;
+    min-height: 210px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+
+    margin-top: 27px;
+
 }
 
 .tab_menu{
     border: 1px solid #C6CBCD; border-radius: 0px 0px 0px 5px;
-    height: 500px;
+    min-height: 500px;
 
 }
 .download{
     display: inline-block;
 
     width: 270px;
-    height: 58px;
+    min-height: 58px;
 
     margin-top: 27px;
-
     margin-bottom: 54px;
+    border: 0px;
+    padding: 0px;
 
     background-color: #EC7979;
     color: #E5E5E5;
@@ -79,8 +84,7 @@ body {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    border: 0px;
-    padding: 0px;
+
 }
 .tabs:nth-child(1){
     border: 1px solid #C6CBCD; border-radius: 5px 5px 0px 0px;
@@ -89,20 +93,27 @@ body {
 }
 .tab_menu li{
     margin-left: 100px;
+
 }
 .place{
     display: flex;
+
     width: 470px;
-    height: 500px;
+    min-height: 500px;
+
     position: absolute;
     right: 0;
     top: 40px;
+
 }
 .transparent_line{
-
-    width: 199px;
     position: absolute;
     left: 1px;
+
+    width: 199px;
+
     margin: 0px;
-    border: 1px solid #E5E5E5;
+
+    border: 1px solid #FFFFFF;
+
 }
