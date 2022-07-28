@@ -39,11 +39,13 @@
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
+    padding-left: 100px;
 
 }
 
 .tab_subtitle {
     display: flex;
+    align-items: center;
 
     width: 570px;
     min-height: 210px;
@@ -55,24 +57,28 @@
     line-height: 21px;
 
     margin-top: 27px;
+    padding-left: 100px;
 
 }
 
 .tab_menu {
+    display: flex;
+
     border: 1px solid #C6CBCD;
     border-radius: 0 0 0 5px;
     min-height: 500px;
 
+    flex-direction: column;
+
 }
 
 .download {
-    display: inline-block;
-
     width: 270px;
     min-height: 58px;
 
     margin-top: 27px;
     margin-bottom: 54px;
+    margin-left: 100px;
     border: 0;
     padding: 0;
 
@@ -88,7 +94,7 @@
 
 }
 
-.tabs:nth-child(1) {
+#active {
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
     width: 203px;
@@ -104,7 +110,7 @@
     display: flex;
 
     width: 470px;
-    min-height: 500px;
+    height: auto;
 
     position: absolute;
     right: 0;
@@ -122,4 +128,8 @@
 
     border: 1px solid #FFFFFF;
 
+}
+
+.tab_button{
+    display: flex;
 }
