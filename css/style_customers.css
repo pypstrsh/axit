@@ -1,0 +1,131 @@
+.customers__block {
+    width: 1170px;
+}
+
+.customers__block-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 42px;
+
+    min-height: 150px;
+    margin-top: 50px;
+
+    color: #000000;
+}
+
+.customers__block-subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-align: center;
+
+    color: #86878B;
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+.customers__block-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers__block_cards-message {
+    width: 370px;
+    min-height: 180px;
+    border-radius: 10px;
+
+
+    background-color: #E2E2E2;
+    color: #86878B;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.customers__block_cards li{
+    display: flex;
+    width: 270px;
+    justify-content: flex-end;
+}
+
+.customers__block_cards-container{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.customers__block_cards-name{
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 66px;
+
+
+    min-height: 54px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+}
+
+.customers__block_cards-post{
+    display: flex;
+
+    justify-content: flex-start;
+
+    min-height: 21px;
+
+    margin-top: 15px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.customers__block_cards-photo{
+    position: relative;
+    top: -90px;
+    width: 70px;
+
+}
+.customers__block_cards-message:after {
+    position: relative;
+    top: 105px;
+    left: -270px;
+
+    content: "";
+
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+
+}

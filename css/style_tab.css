@@ -98,11 +98,7 @@
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
     width: 203px;
-
-}
-
-.tab_menu li {
-    margin-left: 100px;
+    border-bottom: 1px solid #FFFFFF;
 
 }
 
@@ -130,6 +126,7 @@
 
 }
 
-.tab_button{
+.tab_button {
     display: flex;
+
 }
