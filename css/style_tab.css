@@ -39,7 +39,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    padding-left: 100px;
+    margin-left: 100px;
 
 }
 
@@ -56,7 +56,7 @@
     line-height: 21px;
 
     margin-top: 27px;
-    padding-left: 100px;
+    margin-left: 100px;
 
 }
 
@@ -115,9 +115,9 @@
 
 .transparent_line {
     position: absolute;
-    left: 1px;
+    left: 2px;
 
-    width: 201px;
+    width: 200px;
 
     margin: 0;
 
