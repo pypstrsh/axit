@@ -48,7 +48,6 @@
     align-items: center;
 
     width: 570px;
-    min-height: 210px;
 
     font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
@@ -103,7 +102,7 @@
 }
 
 .place {
-    display: flex;
+
 
     width: 470px;
     height: auto;
