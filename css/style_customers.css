@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
 
-    font-family: 'Raleway';
+    font-family: 'Raleway','Arial',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -21,7 +21,7 @@
 }
 
 .customers__block-subtitle {
-    font-family: 'Raleway';
+    font-family: 'Raleway','Arial',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -41,24 +41,22 @@
 
 .customers__block_cards-message {
     width: 370px;
-    min-height: 180px;
+
     border-radius: 10px;
+
+    padding: 38px 20px;
 
 
     background-color: #E2E2E2;
     color: #86878B;
 
-    font-family: 'Raleway';
+    font-family: 'Raleway','Arial',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
 
-
-    align-items: center;
-    display: flex;
     text-align: center;
-    justify-content: center;
 
 }
 
@@ -68,22 +66,7 @@
     justify-content: flex-end;
 }
 
-.customers__block_cards-container{
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-}
-
 .customers__block_cards-name{
-    display: flex;
-    justify-content: flex-start;
-
-    margin-top: 66px;
-
-
-    min-height: 54px;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -93,15 +76,9 @@
 }
 
 .customers__block_cards-post{
-    display: flex;
-
-    justify-content: flex-start;
-
-    min-height: 21px;
-
     margin-top: 15px;
 
-    font-family: 'Raleway';
+    font-family: 'Raleway','Arial',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -110,15 +87,13 @@
 }
 
 .customers__block_cards-photo{
-    position: relative;
-    top: -90px;
     width: 70px;
-
 }
+
 .customers__block_cards-message:after {
     position: relative;
-    top: 105px;
-    left: -270px;
+    top: 89px;
+    right: 135px;
 
     content: "";
 
@@ -129,3 +104,11 @@
     border-top: 30px solid #E2E2E2;
 
 }
+
+.customer__wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 66px;
+    gap: 30px;
+}
+
