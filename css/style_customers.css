@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
 
-    font-family: 'Raleway','Arial',sans-serif;
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -21,7 +21,7 @@
 }
 
 .customers__block-subtitle {
-    font-family: 'Raleway','Arial',sans-serif;
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -50,7 +50,7 @@
     background-color: #E2E2E2;
     color: #86878B;
 
-    font-family: 'Raleway','Arial',sans-serif;
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -60,13 +60,13 @@
 
 }
 
-.customers__block_cards li{
+.customers__block_cards li {
     display: flex;
     width: 270px;
     justify-content: flex-end;
 }
 
-.customers__block_cards-name{
+.customers__block_cards-name {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -75,10 +75,10 @@
 
 }
 
-.customers__block_cards-post{
+.customers__block_cards-post {
     margin-top: 15px;
 
-    font-family: 'Raleway','Arial',sans-serif;
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -86,7 +86,7 @@
 
 }
 
-.customers__block_cards-photo{
+.customers__block_cards-photo {
     width: 70px;
 }
 
@@ -105,7 +105,7 @@
 
 }
 
-.customer__wrap{
+.customer__wrap {
     display: flex;
     align-items: center;
     margin-top: 66px;
