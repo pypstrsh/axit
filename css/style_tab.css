@@ -11,14 +11,6 @@
 
 }
 
-.tabs.active {
-    border: 1px solid #C6CBCD;
-    border-radius: 5px 5px 0 0;
-    width: 203px;
-
-    border-bottom: 1px solid red;   !important;
-}
-
 .tabs {
     background-color: #FFFFFF;
 
@@ -36,6 +28,29 @@
     line-height: 19px;
     text-transform: uppercase;
 
+}
+
+.tabs.active {
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+    width: 203px;
+
+}
+
+.tabs.active:after{
+    display: block;
+
+    position: relative;
+    left: 0px;
+    top: 10px;
+    content: "";
+
+    width: 197px;
+
+    border: 2px solid white;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .tab_title {
@@ -70,8 +85,6 @@
 .tab_menu {
     display: flex;
     justify-content: space-between;
-
-
 
     border: 1px solid #C6CBCD;
     border-radius: 0 0 0 5px;
