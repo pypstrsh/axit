@@ -20,22 +20,27 @@
 </head>
 
 <body>
-<div class="main_block">
 
-    <header class="axit_header">
-        <div class="header__menu_block">
-            <img src="img/header_logo.svg" alt="axit_logo" class="axit__header_logo">
-            <button type="button">Feautures</button>
-            <button type="button">About</button>
-            <button type="button">Pricing</button>
-            <button type="button">Reviews</button>
-            <button type="button">Contact</button>
-        </div>
-    </header>
+<header class="axit_header">
+    <div class="header__menu_block">
+        <img src="img/header_logo.svg" alt="axit_logo" class="axit__header_logo" width="88" height="32">
+    <nav>
+        <ul class="axit__header_buttons-block">
+            <li><a href="#Feautures" class="axit__header_button">Feautures</a></li>
+            <li><a href="#About" class="axit__header_button">About</a></li>
+            <li><a href="#Pricing" class="axit__header_button">Pricing</a></li>
+            <li><a href="#Reviews" class="axit__header_button">Reviews</a></li>
+            <li><a href="#Contact" class="axit__header_button">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+<main>
 
     <section class="banner__block">
         <div class="banner__block_info">
-            <img src="img/banner_logo.svg" alt="axit__banner_logo" class="banner__axit_logo">
+            <img src="img/banner_logo.svg" alt="axit__banner_logo" class="banner__axit_logo" width="200">
             <h1 class="banner__block_title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
             <p class="banner__block_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             <button type="button" class="banner__block_download">Download</button>
@@ -59,23 +64,22 @@
                 <p class="social__block_info_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                     euismod bibendum laoreet.</p>
             </div>
-            <div class="social__block_social-logo">
-                <img src="img/facebook_icon@social.svg" alt="facebook logo">
-                <img src="img/twitter_icon@social.svg" alt="twitter logo">
-                <img src="img/linkedin_icon@social.svg" alt="linkedin logo">
-                <img src="img/pinterest_icon@social.svg" alt="pinterest logo">
-                <img src="img/instagram_icon@social.svg" alt="instagram logo">
-                <img src="img/github_icon@social.svg" alt="github logo">
-                <img src="img/rss_icon@social.svg" alt="rss logo">
-            </div>
+            <ul class="social__block_social-logo">
+                <li><a href="#"><img src="img/facebook_icon@social.svg" alt="facebook logo"></a></li>
+                <li><a href="#"><img src="img/twitter_icon@social.svg" alt="twitter logo"></a></li>
+                <li><a href="#"><img src="img/linkedin_icon@social.svg" alt="linkedin logo"></a></li>
+                <li><a href="#"><img src="img/pinterest_icon@social.svg" alt="pinterest logo"></a></li>
+                <li><a href="#"><img src="img/instagram_icon@social.svg" alt="instagram logo"></a></li>
+                <li><a href="#"><img src="img/github_icon@social.svg" alt="github logo"></a></li>
+                <li><a href="#"><img src="img/rss_icon@social.svg" alt="rss logo"></a></li>
+            </ul>
         </div>
     </section>
 
     <section class="tabs_block">
         <ul class="tab_button">
             <li>
-                <button class="tabs" type="button" id="active">Tab 1</button>
-                <hr class="transparent_line">
+                <button class="tabs active" type="button">Tab 1</button>
             </li>
 
             <li>
@@ -88,28 +92,28 @@
         </ul>
 
         <div class="tab_menu">
-            <h2 class="tab_title">Tabs with soft transitioning effect.</h2>
-            <p class="tab_subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
-                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                penatibus et magnis dis parturient montes.
-            </p>
-            <p class="tab_subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                bibendum laoreet.
-            </p>
-            <button class="download" type="button">Download</button>
-            <picture>
-                <source srcset="img/tower@Desctop.jpg" media="(min-width: 1024px)">
-                <img class="place" src="img/tower@Tablet.jpg" alt="place">
-            </picture>
+            <div class="tab__menu_info-container">
+                <h2 class="tab_title">Tabs with soft transitioning effect.</h2>
+                <p class="tab_subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                    penatibus et magnis dis parturient montes.
+                </p>
+                <p class="tab_subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                    bibendum laoreet.
+                </p>
+                <button class="download" type="button">Download</button>
+            </div>
+
+                    <img class="place" src="img/tower@Tablet.jpg" alt="place">
+
         </div>
     </section>
 
     <section class="awesome_block">
         <h2 class="title">Why this is awesome</h2>
-        <hr class="under_title">
         <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="menu_container">
             <ul class="awesome__block_list">
@@ -149,7 +153,6 @@
 
     <section class="price__block">
         <h2 class="price__title">pricing options</h2>
-        <hr class="under_title">
         <p class="price__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <ul class="price__cards">
             <li class="price__cards_items">
@@ -200,7 +203,6 @@
 
     <section class="customers__block">
         <h2 class="customers__block-title">what our customers are saying</h2>
-        <hr class="under_title">
         <p class="customers__block-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <ul class="customers__block-cards">
             <li>
@@ -256,7 +258,7 @@
         <button class="banner2__block_download">Download</button>
     </section>
 
-    <section class="contact__block">
+    <section class="contact__block" id="Contact">
         <h2 class="contact__block_title">contact us</h2>
         <p class="contact__block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="contact__block_form">
@@ -273,19 +275,19 @@
         </div>
         <button type="button" class="contact__block_button">Send message</button>
     </section>
+</main>
 
-    <footer class="footer_axit">
-        <div class="footer__block_social-logo">
-            <img src="img/facebook_icon.svg" alt="facebook logo">
-            <img src="img/twitter_icon.svg" alt="twitter logo">
-            <img src="img/linkedin_icon.svg" alt="linkedin logo">
-            <img src="img/pinterest_icon.svg" alt="pinterest logo">
-            <img src="img/instagram_icon.svg" alt="instagram logo">
-            <img src="img/github_icon.svg" alt="github logo">
-            <img src="img/rss_icon.svg" alt="rss logo">
-        </div>
-        <p class="footer_axit_paragraph">© 2015 Axure Themes</p>
-    </footer>
-</div>
+<footer class="footer_axit">
+    <ul class="footer__block_social-logo">
+        <li><a href="#"><img src="img/facebook_icon.svg" alt="facebook logo"></a></li>
+        <li><a href="#"><img src="img/twitter_icon.svg" alt="twitter logo"></a></li>
+        <li><a href="#"><img src="img/linkedin_icon.svg" alt="linkedin logo"></a></li>
+        <li><a href="#"><img src="img/pinterest_icon.svg" alt="pinterest logo"></a></li>
+        <li><a href="#"><img src="img/instagram_icon.svg" alt="instagram logo"></a></li>
+        <li><a href="#"><img src="img/github_icon.svg" alt="github logo"></a></li>
+        <li><a href="#"><img src="img/rss_icon.svg" alt="rss logo"></a></li>
+    </ul>
+    <p class="footer_axit_paragraph">© 2015 Axure Themes</p>
+</footer>
 </body>
 </html>

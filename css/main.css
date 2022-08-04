@@ -10,14 +10,10 @@
 @import "style_social.css";
 @import "style_contact.css";
 
-.main_block {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 
-    width: 1510px;
-
-    margin: auto;
 
 }

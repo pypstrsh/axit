@@ -1,26 +1,24 @@
 .banner__block {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 
-    width: 1510px;
+    padding-bottom: 200px;
+    padding-top: 200px;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner-top_backgound.jpg);
+    align-items: flex-start;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner-top_backgound.jpg) no-repeat;
+    background-size: cover;
 }
 
 .banner__block_info {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+
     flex-direction: column;
     width: 670px;
-    margin-left: 170px;
 
 }
 
-.banner__axit_logo {
-    padding: 10px 0;
-    margin-top: 231px;
-}
 
 .banner__block_title {
     font-family: 'Raleway', 'Arial', sans-serif;
@@ -58,7 +56,6 @@
     line-height: 25px;
 
     margin-top: 42px;
-    margin-bottom: 185px;
 
     text-transform: capitalize;
     color: #FFFFFF;
@@ -90,10 +87,10 @@
     align-items: center;
 
     position: relative;
-    margin-top: 208px;
-    margin-bottom: 293px;
+
     width: 470px;
 
+    margin-left: 30px;
 
     background-color: #FFFFFF;
 

@@ -1,28 +1,43 @@
 .price__block {
-    width: 1508px;
-    min-height: 900px;
 
     background: #F5F5F5;
 
-    padding-bottom: 50px;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .price__title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    text-transform: uppercase;
     line-height: 42px;
-    min-height: 150px;
+    padding: 50px 0 0 0;
+    text-transform: uppercase;
+    color: #000000
 
-    margin-top: 50px;
 
+}
+
+.price__title:after{
+    display: block;
+
+    position: relative;
+    left: 60px;
+
+    content: "";
+
+    width: 170px;
+
+    border: 1px solid #EC7979;
+
+    margin-top: 55px;
+    margin-bottom: 0;
 }
 
 .price__subtitle {
@@ -53,7 +68,7 @@
 .price__cards-title {
     display: flex;
     width: 370px;
-    min-height: 60px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 
@@ -74,7 +89,7 @@
 .price__cards-price {
     display: flex;
     width: 370px;
-    min-height: 100px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
 
@@ -93,7 +108,7 @@
 .price__cards-subtitle {
     display: flex;
     width: 370px;
-    min-height: 50px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 
@@ -120,7 +135,7 @@
 .price__cards__futures-point {
     display: flex;
     width: 370px;
-    min-height: 50px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 
@@ -145,3 +160,5 @@
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 
 }
+
+

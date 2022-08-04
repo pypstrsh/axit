@@ -4,15 +4,25 @@
     flex-direction: column;
     justify-content: center;
 
-    margin-top: 99px;
+    padding-top: 99px;
 
     width: 1170px;
-    min-height: 540px;
+    margin: auto;
 
+}
+
+.tabs.active {
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+    width: 203px;
+
+    border-bottom: 1px solid red;   !important;
 }
 
 .tabs {
     background-color: #FFFFFF;
+
+    padding: 10px;
 
     width: 184px;
     min-height: 40px;
@@ -35,13 +45,11 @@
     align-items: center;
 
     width: 570px;
-    min-height: 124px;
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    margin-left: 100px;
 
 }
 
@@ -58,30 +66,28 @@
     line-height: 21px;
 
     margin-top: 27px;
-    margin-left: 100px;
 
 }
 
 .tab_menu {
     display: flex;
+    justify-content: space-between;
+
+
 
     border: 1px solid #C6CBCD;
     border-radius: 0 0 0 5px;
-    min-height: 500px;
-
-    flex-direction: column;
 
 }
 
 .download {
     width: 270px;
-    min-height: 58px;
+
+    padding: 20px;
 
     margin-top: 27px;
-    margin-bottom: 54px;
-    margin-left: 100px;
+
     border: 0;
-    padding: 0;
 
     background-color: #EC7979;
     color: #E5E5E5;
@@ -95,37 +101,20 @@
 
 }
 
-#active {
-    border: 1px solid #C6CBCD;
-    border-radius: 5px 5px 0 0;
-    width: 203px;
-    border-bottom: 1px solid #FFFFFF;
-
-}
 
 .place {
     width: 470px;
     height: auto;
-
-    position: absolute;
-    right: 0;
-    top: 40px;
-
-}
-
-.transparent_line {
-    position: absolute;
-    left: 2px;
-
-    width: 200px;
-
-    margin: 0;
-
-    border: 1px solid #FFFFFF;
-
 }
 
 .tab_button {
     display: flex;
 
 }
+
+.tab__menu_info-container{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
