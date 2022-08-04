@@ -42,17 +42,7 @@
 
 }
 
-.main_block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    width: 1510px;
-
-    margin: 50px auto;
-
-}
 
 .awesome_block {
     display: flex;

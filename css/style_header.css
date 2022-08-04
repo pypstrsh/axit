@@ -1,0 +1,38 @@
+.axit_header {
+    display: flex;
+    justify-content: center;
+
+    width: 1510px;
+
+    background-color: #000000;
+}
+
+.axit__header_logo {
+    margin: 20px;
+}
+
+.header__menu_block {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__menu_block .axit__header_logo {
+    position: relative;
+    right: 492px;
+}
+
+.header__menu_block button {
+    width: 114px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    background-color: #000000;
+    color: #FFFFFF;
+}
+

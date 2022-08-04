@@ -3,3 +3,21 @@
 @import "style_customers.css";
 @import "style_price.css";
 @import "style_tab.css";
+@import "style_header.css";
+@import "style_banner-top.css";
+@import "style_banner-bottom.css";
+@import "style_foter.css";
+@import "style_social.css";
+@import "style_contact.css";
+
+.main_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 1510px;
+
+    margin: auto;
+
+}

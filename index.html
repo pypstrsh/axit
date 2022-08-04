@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <title>Homework</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +21,55 @@
 
 <body>
 <div class="main_block">
+
+    <header class="axit_header">
+        <div class="header__menu_block">
+            <img src="img/header_logo.svg" alt="axit_logo" class="axit__header_logo">
+            <button type="button">Feautures</button>
+            <button type="button">About</button>
+            <button type="button">Pricing</button>
+            <button type="button">Reviews</button>
+            <button type="button">Contact</button>
+        </div>
+    </header>
+
+    <section class="banner__block">
+        <div class="banner__block_info">
+            <img src="img/banner_logo.svg" alt="axit__banner_logo" class="banner__axit_logo">
+            <h1 class="banner__block_title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+            <p class="banner__block_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <button type="button" class="banner__block_download">Download</button>
+        </div>
+
+        <div class="banner__block_form">
+            <h2 class="banner__block_form-title">Try Your<span class="banner__block_form-title color-text"> FREE </span>Trial
+                Today</h2>
+            <label><input type="text" class="banner__block_form-input" placeholder="Name" name="Name"></label>
+            <label><input type="email" class="banner__block_form-input" placeholder="Email" name="Email"></label>
+            <label><input type="password" class="banner__block_form-input" placeholder="Password"
+                          name="Password"></label>
+            <button type="button" class="banner__block_form-button">Get started</button>
+        </div>
+    </section>
+
+    <section class="social__block">
+        <div class="social__block_container">
+            <div class="social__block_info">
+                <h2 class="social__block_info-title">Social Media</h2>
+                <p class="social__block_info_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet.</p>
+            </div>
+            <div class="social__block_social-logo">
+                <img src="img/facebook_icon@social.svg" alt="facebook logo">
+                <img src="img/twitter_icon@social.svg" alt="twitter logo">
+                <img src="img/linkedin_icon@social.svg" alt="linkedin logo">
+                <img src="img/pinterest_icon@social.svg" alt="pinterest logo">
+                <img src="img/instagram_icon@social.svg" alt="instagram logo">
+                <img src="img/github_icon@social.svg" alt="github logo">
+                <img src="img/rss_icon@social.svg" alt="rss logo">
+            </div>
+        </div>
+    </section>
 
     <section class="tabs_block">
         <ul class="tab_button">
@@ -43,17 +94,16 @@
                 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
                 justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
                 penatibus et magnis dis parturient montes.
-                </p>
-                <p class="tab_subtitle">
+            </p>
+            <p class="tab_subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                 bibendum laoreet.
             </p>
-
-
             <button class="download" type="button">Download</button>
-
-
-            <img class="place" src="img/tower.png" alt="place">
+            <picture>
+                <source srcset="img/tower@Desctop.jpg" media="(min-width: 1024px)">
+                <img class="place" src="img/tower@Tablet.jpg" alt="place">
+            </picture>
         </div>
     </section>
 
@@ -61,38 +111,34 @@
         <h2 class="title">Why this is awesome</h2>
         <hr class="under_title">
         <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
         <div class="menu_container">
-
             <ul class="awesome__block_list">
                 <li>
                     <div class="list_img">
                         <img src="img/bulb.png" alt="bulb">
                     </div>
                     <h2 class="list_title">Thoughtful Design</h2>
-                    <p class="list_subtitle">Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
+                    <p class="list_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                         viverra.
                     </p>
                 </li>
-
                 <li>
                     <div class="list_img">
                         <img src="img/keybord.png" alt="keybord">
                     </div>
                     <h2 class="list_title">Thoughtful Design</h2>
-                    <p class="list_subtitle">Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
+                    <p class="list_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                         viverra.
                     </p>
                 </li>
-
                 <li>
                     <div class="list_img">
                         <img src="img/lightning.png" alt="lightning">
                     </div>
                     <h2 class="list_title">Thoughtful Design</h2>
-                    <p class="list_subtitle">Lorem ipsum dolor sit amet, consectetur <br> adipiscing <br>
+                    <p class="list_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                         viverra.
                     </p>
@@ -105,7 +151,6 @@
         <h2 class="price__title">pricing options</h2>
         <hr class="under_title">
         <p class="price__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
         <ul class="price__cards">
             <li class="price__cards_items">
                 <h3 class="price__cards-title">Basic</h3>
@@ -122,7 +167,6 @@
                     <li class="price__cards__futures-point">1 Gb Of Space</li>
                 </ul>
             </li>
-
             <li class="price__cards_items">
                 <h3 class="price__cards-title">Optima</h3>
 
@@ -138,13 +182,10 @@
                     <li class="price__cards__futures-point">1 Gb Of Space</li>
                 </ul>
             </li>
-
             <li class="price__cards_items">
                 <h3 class="price__cards-title">Pro</h3>
-
                 <p class="price__cards-price">$30</p>
                 <p class="price__cards-subtitle">Free for life</p>
-
                 <ul class="price__cards-futures">
                     <li class="price__cards__futures-point">1 Gb Of Space</li>
                     <li class="price__cards__futures-point">1 Gb Of Space</li>
@@ -168,34 +209,29 @@
                     accusamus expedita repellat similique
                     odio aspernatur ex, architecto
                     quo suscipit.
-
                 <div class="customer__wrap">
-                    <img src="img/customer1.png" class="customers__block_cards-photo" alt="customer photo">
+                    <img src="img/customer1.png" class="customers__block_cards-photo" alt="Davis Rhiel Madsen photo">
                     <div class="customers__block_cards-container">
 
                         <h3 class="customers__block_cards-name">Davis Rhiel Madsen</h3>
                         <p class="customers__block_cards-post">Manager</p>
                     </div>
                 </div>
-
             </li>
-
             <li>
                 <p class="customers__block_cards-message">Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Doloribus
                     accusamus expedita repellat similique
                     odio aspernatur ex, architecto
                     quo suscipit.</p>
-
                 <div class="customer__wrap">
-                    <img src="img/customer2.png" class="customers__block_cards-photo" alt="customer photo">
+                    <img src="img/customer2.png" class="customers__block_cards-photo" alt="Jaydon Rosser photo">
                     <div class="customers__block_cards-container">
                         <h3 class="customers__block_cards-name">Jaydon Rosser</h3>
                         <p class="customers__block_cards-post">Manager</p>
                     </div>
                 </div>
             </li>
-
             <li>
                 <p class="customers__block_cards-message">Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Doloribus
@@ -203,7 +239,7 @@
                     odio aspernatur ex, architecto
                     quo suscipit.
                 <div class="customer__wrap">
-                    <img src="img/customer3.png" class="customers__block_cards-photo" alt="customer photo">
+                    <img src="img/customer3.png" class="customers__block_cards-photo" alt="Cooper Dorwart photo">
                     <div class="customers__block_cards-container">
                         <h3 class="customers__block_cards-name">Cooper Dorwart</h3>
                         <p class="customers__block_cards-post">Manager</p>
@@ -213,6 +249,43 @@
         </ul>
     </section>
 
+    <section class="banner2__block">
+        <h2 class="banner2__block_title">STYLISH AXURE DESIGN</h2>
+        <p class="banner2__block_subtitle">Use the sections you need, remove the ones you don't.
+            Create gorgeous prototypes faster than ever!</p>
+        <button class="banner2__block_download">Download</button>
+    </section>
+
+    <section class="contact__block">
+        <h2 class="contact__block_title">contact us</h2>
+        <p class="contact__block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="contact__block_form">
+            <div class="contact__block_form-left">
+                <label><input type="text" class="contact__block_form-input" placeholder="Name" name="Name"></label>
+                <label><input type="email" class="contact__block_form-input" placeholder="Email" name="Email"></label>
+                <label><input type="password" class="contact__block_form-input" placeholder="Password"
+                              name="Password"></label>
+            </div>
+            <div class="contact__block_form-right">
+                <label><input type="text" class="contact__block_form-input" id="message" placeholder="Message"
+                              name="Message"></label>
+            </div>
+        </div>
+        <button type="button" class="contact__block_button">Send message</button>
+    </section>
+
+    <footer class="footer_axit">
+        <div class="footer__block_social-logo">
+            <img src="img/facebook_icon.svg" alt="facebook logo">
+            <img src="img/twitter_icon.svg" alt="twitter logo">
+            <img src="img/linkedin_icon.svg" alt="linkedin logo">
+            <img src="img/pinterest_icon.svg" alt="pinterest logo">
+            <img src="img/instagram_icon.svg" alt="instagram logo">
+            <img src="img/github_icon.svg" alt="github logo">
+            <img src="img/rss_icon.svg" alt="rss logo">
+        </div>
+        <p class="footer_axit_paragraph">© 2015 Axure Themes</p>
+    </footer>
 </div>
 </body>
 </html>

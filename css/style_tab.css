@@ -4,6 +4,8 @@
     flex-direction: column;
     justify-content: center;
 
+    margin-top: 99px;
+
     width: 1170px;
     min-height: 540px;
 
@@ -102,8 +104,6 @@
 }
 
 .place {
-
-
     width: 470px;
     height: auto;
 
