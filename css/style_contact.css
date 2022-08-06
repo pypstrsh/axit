@@ -118,8 +118,16 @@
     border: 0;
 }
 
-#message{
+.contact__block_form-input.message{
     padding-bottom: 190px;
+}
+
+.contact__block_button:hover{
+    background-color: #AB4949;
+}
+.contact__block_button:active{
+    background-color: #EC7979;
+    box-shadow: inset 0 0 10px #AB4949;
 }
 
 

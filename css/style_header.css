@@ -8,12 +8,16 @@
 .header__menu_block {
     width: 1170px;
     display: flex;
+    padding: 10px 0;
     align-items: center;
     justify-content: space-between;
 }
 
 .axit__header_button {
+    display: block;
+
     width: 114px;
+    padding: 20px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -25,12 +29,21 @@
     color: #FFFFFF;
 
     text-decoration: none;
-    align-items: center;
+
 }
 
 .axit__header_buttons-block li{
+
     display: inline-block;
-    width: 114px;
-    padding: 20px;
+    text-align: center;
 }
 
+.axit__header_button:hover {
+    background-color:  #EC7979;;
+    text-transform: uppercase;
+}
+
+.axit__header_button:active{
+    background-color: #AB4949;
+    text-transform: uppercase;
+}

@@ -17,7 +17,6 @@
     width: 184px;
     min-height: 40px;
 
-    margin: 0 0 -1px 0;
     border: 0;
     padding: 0;
 
@@ -34,6 +33,7 @@
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
     width: 203px;
+    padding: 10px;
 
 }
 
@@ -41,8 +41,8 @@
     display: block;
 
     position: relative;
-    left: 0px;
-    top: 10px;
+    left: -10px;
+    top: 13px;
     content: "";
 
     width: 197px;
@@ -101,7 +101,7 @@
     border: 0;
 
     background-color: #EC7979;
-    color: #E5E5E5;
+    color: #FFFFFF;
 
 
     font-family: 'Open Sans';
@@ -129,3 +129,10 @@
     padding-bottom: 50px;
 }
 
+.download:hover{
+    background-color: #AB4949;
+}
+.download:active{
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
