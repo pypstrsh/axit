@@ -15,4 +15,9 @@ main {
     flex-direction: column;
     justify-content: center;
 
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
 }
