@@ -1,4 +1,4 @@
-.contact__block{
+.contact__block {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,14 +10,14 @@
     margin: auto;
 }
 
-.contact__block_title{
+.contact__block_title {
     font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
 
-    padding: 50px 0 0 0 ;
+    padding: 50px 0 0 0;
 
     text-transform: uppercase;
 
@@ -25,7 +25,7 @@
 
 }
 
-.contact__block__subtitle{
+.contact__block__subtitle {
     font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -37,7 +37,7 @@
     margin-top: 40px;
 }
 
-.contact__block_title:after{
+.contact__block_title:after {
     display: block;
 
     position: relative;
@@ -53,13 +53,15 @@
     margin-bottom: 0;
 }
 
-.contact__block_form{
+.contact__block_form {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     width: 1170px;
 }
-.contact__block_form-left{
+
+.contact__block_form-left {
     margin-top: 39px;
 
     width: 570px;
@@ -71,14 +73,14 @@
     outline: none;
 }
 
-.contact__block_form-right{
+.contact__block_form-right {
     margin-top: 39px;
     margin-left: 30px;
     width: 570px;
 
 }
 
-.contact__block_form-input{
+.contact__block_form-input {
     width: 570px;
     outline: none;
 
@@ -99,7 +101,7 @@
     border-bottom: 1px solid #BDBDBD;
 }
 
-.contact__block_button{
+.contact__block_button {
     margin-top: 50px;
 
     width: 370px;
@@ -113,19 +115,21 @@
     line-height: 25px;
 
     color: #FFFFFF;
-    background-color:#EC7979 ;
+    background-color: #EC7979;
 
     border: 0;
 }
 
-.contact__block_form-input.message{
+.contact__block_form-input.message {
     padding-bottom: 190px;
+
 }
 
-.contact__block_button:hover{
+.contact__block_button:hover {
     background-color: #AB4949;
 }
-.contact__block_button:active{
+
+.contact__block_button:active {
     background-color: #EC7979;
     box-shadow: inset 0 0 10px #AB4949;
 }

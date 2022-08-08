@@ -6,11 +6,11 @@
 
     <title>AXIT</title>
     <link href="img/page_icom.svg" rel="icon" type="image">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap"
-              rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap"
+          rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap"
-              rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap"
+          rel="stylesheet">
 
     <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -20,15 +20,15 @@
 <header class="axit_header">
     <div class="header__menu_block">
         <img src="img/header_logo.svg" alt="axit_logo" class="axit__header_logo" width="88" height="32">
-    <nav>
-        <ul class="axit__header_buttons-block">
-            <li><a href="#Features" class="axit__header_button">Feautures</a></li>
-            <li><a href="#About" class="axit__header_button">About</a></li>
-            <li><a href="#Pricing" class="axit__header_button">Pricing</a></li>
-            <li><a href="#Reviews" class="axit__header_button">Reviews</a></li>
-            <li><a href="#Contact" class="axit__header_button">Contact</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul class="axit__header_buttons-block">
+                <li><a href="#Features" class="axit__header_button">Feautures</a></li>
+                <li><a href="#About" class="axit__header_button">About</a></li>
+                <li><a href="#Pricing" class="axit__header_button">Pricing</a></li>
+                <li><a href="#Reviews" class="axit__header_button">Reviews</a></li>
+                <li><a href="#Contact" class="axit__header_button">Contact</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
 
@@ -45,11 +45,15 @@
         <div class="banner__block_form">
             <h2 class="banner__block_form-title">Try Your<span class="banner__block_form-title color-text"> FREE </span>Trial
                 Today</h2>
-            <label><input type="text" class="banner__block_form-input" placeholder="Name" name="Name"></label>
-            <label><input type="email" class="banner__block_form-input" placeholder="Email" name="Email"></label>
-            <label><input type="password" class="banner__block_form-input" placeholder="Password"
-                          name="Password"></label>
-            <button type="button" class="banner__block_form-button">Get started</button>
+            <form class="banner__block_container-input" action="" method="post">
+                <label><input type="text" class="banner__block_form-input" placeholder="Name" name="Name"></label>
+                <label><input type="email" class="banner__block_form-input" placeholder="Email" name="Email"></label>
+                <label><input type="password" class="banner__block_form-input" placeholder="Password"
+                              name="Password"></label>
+
+                <button type="button" class="banner__block_form-button">Get started</button>
+            </form>
+
         </div>
     </section>
 
@@ -75,7 +79,7 @@
     <section class="tabs_block" id="Features">
         <ul class="tab_button">
             <li>
-                <button class="tabs active" type="button"  >Tab 1</button>
+                <button class="tabs active" type="button">Tab 1</button>
             </li>
 
             <li>
@@ -103,7 +107,7 @@
                 <button class="download" type="button">Download</button>
             </div>
 
-                    <img class="place" src="img/tower@Tablet.jpg" alt="place">
+            <img class="place" src="img/tower@Tablet.jpg" alt="place">
 
         </div>
     </section>
@@ -257,19 +261,19 @@
     <section class="contact__block" id="Contact">
         <h2 class="contact__block_title">contact us</h2>
         <p class="contact__block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="contact__block_form">
-            <div class="contact__block_form-left">
+        <form class="contact__block_form">
+            <fieldset class="contact__block_form-left">
                 <label><input type="text" class="contact__block_form-input" placeholder="Name" name="Name"></label>
                 <label><input type="email" class="contact__block_form-input" placeholder="Email" name="Email"></label>
                 <label><input type="password" class="contact__block_form-input" placeholder="Password"
                               name="Password"></label>
-            </div>
-            <div class="contact__block_form-right">
+            </fieldset>
+            <fieldset class="contact__block_form-right">
                 <label><input type="text" class="contact__block_form-input message" placeholder="Message"
                               name="Message"></label>
-            </div>
-        </div>
-        <button type="button" class="contact__block_button">Send message</button>
+            </fieldset>
+            <button type="button" class="contact__block_button">Send message</button>
+        </form>
     </section>
 </main>
 
