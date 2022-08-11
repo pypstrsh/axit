@@ -3,7 +3,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
     width: 1170px;
+
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -20,7 +22,7 @@
     color: #000000
 }
 
-.customers__block-title:after{
+.customers__block-title:after {
     display: block;
     position: relative;
     left: 230px;
@@ -50,10 +52,10 @@
     margin-top: 40px;
 }
 
-.customers__block-cards  {
+.customers__block-cards {
     display: flex;
-    margin-top: 110px;
-    gap:30px;
+    margin-top: 83px;
+    gap: 30px;
 }
 
 .customers__block_cards-message {
@@ -95,11 +97,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-
-}
-
-.customers__block_cards-photo {
-    width: 70px;
 }
 
 .customers__block_cards-message:after {
@@ -114,7 +111,6 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 30px solid #E2E2E2;
-
 }
 
 .customer__wrap {
@@ -124,3 +120,54 @@
     gap: 30px;
 }
 
+@media (max-width: 1510px) {
+    .customers__block {
+        width: 992px;
+    }
+
+    .customers__block-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .customers__block-title:after {
+        width: 142px;
+        left: 135px;
+    }
+
+    .customers__block-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .customers__block_cards {
+        margin-top: 32px;
+        gap: 20px;
+    }
+
+    .customers__block_cards-message {
+        width: 317px;
+        padding: 35px 10px;
+    }
+
+    .customers__block_cards-message:after {
+        right: 190px;
+        top: 81px;
+
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 25px solid #E2E2E2;
+    }
+
+    .customers__block_cards-name {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .customers__block_cards-post {
+        margin-top: 8px;
+
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

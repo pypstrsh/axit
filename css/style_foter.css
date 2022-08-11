@@ -7,7 +7,6 @@
     padding: 35px;
 
     background-color: #000000;
-
 }
 
 .footer__block_social-logo  {
@@ -27,6 +26,17 @@
     line-height: 21px;
 
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1510px) {
+    .footer_axit_paragraph{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer__block_social-logo{
+        width: 482px;
+    }
 
 }
 

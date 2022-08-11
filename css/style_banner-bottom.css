@@ -7,7 +7,7 @@
 
     padding: 50px;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner-bottom_background.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Desktop/banner-bottom_background.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -69,14 +69,40 @@
 
 }
 
-.banner2__block_download:hover{
+.banner2__block_download:hover {
     color: #EC7979;
     border: 2px solid #EC7979;
 
 }
 
-.banner2__block_download:active{
-    color:  #FFFFFF;
-    background-color:  #AB4949;
+.banner2__block_download:active {
+    color: #FFFFFF;
+    background-color: #AB4949;
     border: 2px solid #AB4949;
+}
+
+@media (max-width: 1510px) {
+    .banner2__block {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Tablet/banner_bottom_Tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .banner2__block_title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .banner2__block_title:after {
+        width: 142px;
+        left: 65px;
+    }
+
+    .banner2__block_subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .banner2__block_download {
+        width: 318px;
+    }
 }

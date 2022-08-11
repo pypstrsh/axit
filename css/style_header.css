@@ -30,21 +30,26 @@
 
     text-decoration: none;
 
-
-
 }
 
-.axit__header_buttons-block li{
+.axit__header_buttons-block li {
     display: inline-block;
     text-align: center;
 }
 
 .axit__header_button:hover {
-    background-color:  #EC7979;;
+    background-color: #EC7979;;
     text-transform: uppercase;
 }
 
-.axit__header_button:active{
+.axit__header_button:active {
     background-color: #AB4949;
     text-transform: uppercase;
+}
+
+@media (max-width: 1510px) {
+    .header__menu_block {
+        width: 992px;
+    }
+
 }

@@ -5,23 +5,20 @@
     justify-content: center;
 
     padding-top: 99px;
-
-    width: 1170px;
     margin: auto;
 
-
-
+    width: 1170px;
 }
 
 .tabs {
     background-color: #FFFFFF;
 
     width: 203px;
-    min-height: 40px;
+
 
     border: 1px solid #FFFFFF;
     border-bottom: 0;
-    padding: 0;
+    padding: 10px;
 
     font-family: 'Open Sans';
     font-style: normal;
@@ -29,24 +26,21 @@
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
-
 }
 
-.tabs:active{
+.tabs:active {
 
     border: 1px solid #C6CBCD;
     border-radius: 5px 5px 0 0;
 
     border-bottom: none;
-
 }
 
-
-.tabs:active:after{
+.tabs:active:after {
     display: block;
 
     position: relative;
-    left: 0;
+    left: -10px;
     top: 11px;
     content: "";
 
@@ -68,7 +62,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-
 }
 
 .tab_subtitle {
@@ -84,7 +77,6 @@
     line-height: 21px;
 
     margin-top: 27px;
-
 }
 
 .tab_menu {
@@ -93,51 +85,81 @@
 
     border: 1px solid #C6CBCD;
     border-radius: 0 0 0 5px;
-
 }
 
 .download {
     width: 270px;
-
     padding: 20px;
-
     margin-top: 27px;
-
     border: 0;
 
     background-color: #EC7979;
     color: #FFFFFF;
-
 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-
-}
-
-
-.place {
-    width: 470px;
-    height: auto;
 }
 
 .tab_button {
     display: flex;
-
 }
 
-.tab__menu_info-container{
+.place {
+    height: auto;
+}
+
+.tab__menu_info-container {
     padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.download:hover{
+.download:hover {
     background-color: #AB4949;
 }
-.download:active{
+
+.download:active {
     background-color: #EC7979;
     box-shadow: inset 0 0 10px #AB4949;
+}
+
+@media (max-width: 1510px) {
+    .tabs_block {
+        padding-top: 45px;
+        width: 992px;
+    }
+
+    .tabs {
+        width: 172px;
+    }
+
+    .tabs:active:after {
+        width: 168px;
+    }
+
+    .tab_title {
+        width: 482px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .tab_subtitle {
+        width: 482px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .download {
+        width: 231px;
+    }
+
+    .tab__menu_info-container {
+        padding-left: 84px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
 }
