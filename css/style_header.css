@@ -49,7 +49,34 @@
 
 @media (max-width: 1510px) {
     .header__menu_block {
-        width: 992px;
+        width: 885px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .header__menu_block {
+        flex-direction: column;
+    }
+
+    .axit__header_logo {
+        align-self: flex-start;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .axit__header_button {
+        width: 280px;
+    }
+
+    .axit__header_buttons-block li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .axit__header_buttons-block {
+        padding: 15px;
+
     }
 
 }

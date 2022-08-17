@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <title>AXIT</title>
-    <link href="img/page_icon.svg" rel="icon" type="image">
+    <link href="img/Desktop/page_icon.svg" rel="icon" type="image">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap"
           rel="stylesheet">
 
@@ -19,7 +19,10 @@
 
 <header class="axit_header">
     <div class="header__menu_block">
-        <img src="img/Desktop/header_logo.svg" alt="axit_logo" class="axit__header_logo" width="88" height="32">
+        <picture class="axit__header_logo">
+            <source srcset="img/Mobile/logo_header@Mobile.svg" media="(max-width: 1024px)">
+            <img src="img/Desktop/header_logo.svg" alt="axit_logo">
+        </picture>
         <nav>
             <ul class="axit__header_buttons-block">
                 <li><a href="#Features" class="axit__header_button">Features</a></li>
@@ -33,12 +36,11 @@
 </header>
 
 <main>
-
     <section class="banner__block">
         <div class="banner__block_info">
-            <picture>
+            <picture class="banner__axit_logo">
                 <source srcset="img/Tablet/banner_logo_Tablet.svg" media="(max-width: 1510px)">
-                <img src="img/Desktop/banner_logo_Desktop.svg" alt="axit__banner_logo" class="banner__axit_logo">
+                <img src="img/Desktop/banner_logo_Desktop.svg" alt="axit__banner_logo">
             </picture>
             <h1 class="banner__block_title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
             <p class="banner__block_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -55,7 +57,6 @@
                               name="Password"></label>
                 <button type="button" class="banner__block_form-button">Get started</button>
             </form>
-
         </div>
     </section>
 
@@ -66,43 +67,31 @@
                 <p class="social__block_info_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                     euismod bibendum laoreet.</p>
             </div>
-            <ul class="social__block_social-logo">
-                <li><a href="#">
-                    <picture>
-                        <source srcset="img/Tablet/facebook_icon@Tablet.svg" media="(max-width: 1510px)">
-                        <img src="img/Desktop/facebook_icon@social.svg" alt="facebook logo">
-                    </picture>
+            <ul class="test">
+                <li><a href="#" class="social__block_logo-wrap">
+                    <img src="img/Desktop/facebook_icon@social.svg" alt="facebook logo"
+                         class="social__block_social-logo">
                 </a></li>
-                <li><a href="#">
-                    <picture>
-                        <source srcset="img/Tablet/twitter_icon@Tablet.svg" media="(max-width: 1510px)">
-                        <img src="img/Desktop/twitter_icon@social.svg" alt="twitter logo"></picture>
+                <li><a href="#" class="social__block_logo-wrap">
+                    <img src="img/Desktop/twitter_icon@social.svg" alt="twitter logo" class="social__block_social-logo">
                 </a></li>
-                <li><a href="#">
-                    <picture>
-                        <source srcset="img/Tablet/linkedin_icon@Tablet.svg" media="(max-width: 1510px)">
-                        <img src="img/Desktop/linkedin_icon@social.svg" alt="linkedin logo"></picture>
+                <li><a href="#" class="social__block_logo-wrap">
+                    <img src="img/Desktop/linkedin_icon@social.svg" alt="linkedin logo"
+                         class="social__block_social-logo">
                 </a></li>
-                <li><a href="#">
-                    <picture>
-                        <source srcset="img/Tablet/pinterest_icon@Tablet.svg" media="(max-width: 1510px)">
-                        <img src="img/Desktop/pinterest_icon@social.svg" alt="pinterest logo"></picture>
+                <li><a href="#" class="social__block_logo-wrap">
+                    <img src="img/Desktop/pinterest_icon@social.svg" alt="pinterest logo"
+                         class="social__block_social-logo">
                 </a></li>
-                <li><a href="#">
-                    <picture>
-                        <source srcset="img/Tablet/instagram_icon@Tablet.svg" media="(max-width: 1510px)">
-                        <img src="img/Desktop/instagram_icon@social.svg" alt="instagram logo">
-                    </picture>
+                <li><a href="#" class="social__block_logo-wrap">
+                    <img src="img/Desktop/instagram_icon@social.svg" alt="instagram logo"
+                         class="social__block_social-logo">
                 </a></li>
-                <li><a href="#">
-                    <picture>
-                        <source srcset="img/Tablet/github_icon@Tablet.svg" media="(max-width:1510px)">
-                        <img src="img/Desktop/github_icon@social.svg" alt="github logo"></picture>
+                <li><a href="#" class="social__block_logo-wrap">
+                    <img src="img/Desktop/github_icon@social.svg" alt="github logo" class="social__block_social-logo">
                 </a></li>
-                <li><a href="#">
-                    <picture>
-                        <source srcset="img/Tablet/rss_icon@Tablet.svg" media="(max-width: 1510px)">
-                        <img src="img/Desktop/rss_icon@social.svg" alt="rss logo"></picture>
+                <li><a href="#" class="social__block_logo-wrap">
+                    <img src="img/Desktop/rss_icon@social.svg" alt="rss logo" class="social__block_social-logo">
                 </a></li>
             </ul>
         </div>
@@ -113,11 +102,9 @@
             <li>
                 <button class="tabs" type="button">Tab 1</button>
             </li>
-
             <li>
                 <button class="tabs" type="button">Tab 2</button>
             </li>
-
             <li>
                 <button class="tabs" type="button">Tab 3</button>
             </li>
@@ -139,9 +126,9 @@
                 <button class="download" type="button">Download</button>
             </div>
 
-            <picture>
+            <picture class="place">
                 <source srcset="img/Tablet/tower@Tablet.jpg" media="(max-width: 1510px)">
-                <img class="place" src="img/Desktop/tower@Desctop.jpg" alt="place">
+                <img src="img/Desktop/tower@Desctop.jpg" alt="place">
             </picture>
         </div>
     </section>
@@ -152,9 +139,9 @@
         <div class="menu_container">
             <ul class="awesome__block_list">
                 <li>
-                    <picture>
+                    <picture class="list_img">
                         <source srcset="img/Tablet/bulb_Tablet.png" media="(max-width: 1510px)">
-                        <img class="list_img" src="img/Desktop/bulb_Desktop.png" alt="bulb"></picture>
+                        <img src="img/Desktop/bulb_Desktop.png" alt="bulb"></picture>
                     <h2 class="list_title">Thoughtful Design</h2>
                     <p class="list_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
@@ -162,9 +149,9 @@
                     </p>
                 </li>
                 <li>
-                    <picture>
+                    <picture class="list_img">
                         <source srcset="img/Tablet/keybord_Tablet.png" media="(max-width: 1510px)">
-                        <img class="list_img" src="img/Desktop/keybord_Desktop.png" alt="keybord"></picture>
+                        <img src="img/Desktop/keybord_Desktop.png" alt="keybord"></picture>
                     <h2 class="list_title">Thoughtful Design</h2>
                     <p class="list_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
@@ -172,9 +159,9 @@
                     </p>
                 </li>
                 <li>
-                    <picture>
+                    <picture class="list_img">
                         <source srcset="img/Tablet/lightning_Tablet.png" media="(max-width: 1510px)">
-                        <img class="list_img" src="img/Desktop/lightning_Desktop.png" alt="lightning"></picture>
+                        <img src="img/Desktop/lightning_Desktop.png" alt="lightning"></picture>
                     <h2 class="list_title">Thoughtful Design</h2>
                     <p class="list_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
@@ -191,10 +178,8 @@
         <ul class="price__cards">
             <li class="price__cards_items">
                 <h3 class="price__cards-title">Basic</h3>
-
                 <p class="price__cards-price">$10</p>
                 <p class="price__cards-subtitle">Free for life</p>
-
                 <ul class="price__cards-futures">
                     <li class="price__cards__futures-point">1 Gb Of Space</li>
                     <li class="price__cards__futures-point">1 Gb Of Space</li>
@@ -206,10 +191,8 @@
             </li>
             <li class="price__cards_items">
                 <h3 class="price__cards-title">Optima</h3>
-
                 <p class="price__cards-price">$20</p>
                 <p class="price__cards-subtitle">Free for life</p>
-
                 <ul class="price__cards-futures">
                     <li class="price__cards__futures-point">1 Gb Of Space</li>
                     <li class="price__cards__futures-point">1 Gb Of Space</li>
@@ -246,10 +229,9 @@
                     odio aspernatur ex, architecto
                     quo suscipit.
                 <div class="customer__wrap">
-                    <picture>
+                    <picture class="customers__block_cards-photo">
                         <source srcset="img/Tablet/customer1_Tablet.png" media="(max-width: 1510px)">
-                        <img src="img/Desktop/customer1.png" class="customers__block_cards-photo"
-                             alt="Davis Rhiel Madsen photo">
+                        <img src="img/Desktop/customer1.png" alt="Davis Rhiel Madsen photo">
                     </picture>
                     <div class="customers__block_cards-container">
                         <h3 class="customers__block_cards-name">Davis Rhiel Madsen</h3>
@@ -264,10 +246,10 @@
                     odio aspernatur ex, architecto
                     quo suscipit.</p>
                 <div class="customer__wrap">
-                    <picture>
+                    <picture class="customers__block_cards-photo">
+                        <source srcset="img/Mobile/customer2@Mobile.png" media="(max-width: 1024px)">
                         <source srcset="img/Tablet/customer2_Tablet.png" media="(max-width: 1510px)">
-                        <img src="img/Desktop/customer2.png" class="customers__block_cards-photo"
-                             alt="Jaydon Rosser photo">
+                        <img src="img/Desktop/customer2.png" alt="Jaydon Rosser photo">
                     </picture>
                     <div class="customers__block_cards-container">
                         <h3 class="customers__block_cards-name">Jaydon Rosser</h3>
@@ -282,16 +264,26 @@
                     odio aspernatur ex, architecto
                     quo suscipit.
                 <div class="customer__wrap">
-                    <picture>
+                    <picture class="customers__block_cards-photo">
                         <source srcset="img/Tablet/customer3_Tablet.png" media="(max-width: 1510px)">
-                        <img src="img/Desktop/customer3.png" class="customers__block_cards-photo"
-                             alt="Cooper Dorwart photo">
+                        <img src="img/Desktop/customer3.png" alt="Cooper Dorwart photo">
                     </picture>
                     <div class="customers__block_cards-container">
                         <h3 class="customers__block_cards-name">Cooper Dorwart</h3>
                         <p class="customers__block_cards-post">Manager</p>
                     </div>
                 </div>
+            </li>
+        </ul>
+        <ul class="customers__block_mobile-dots">
+            <li>
+                <button type="button" class="dot"></button>
+            </li>
+            <li>
+                <button type="button" class="dot"></button>
+            </li>
+            <li>
+                <button type="button" class="dot"></button>
             </li>
         </ul>
     </section>
@@ -324,40 +316,26 @@
 
 <footer class="footer_axit">
     <ul class="footer__block_social-logo">
-        <li><a href="#">
-            <picture>
-                <source srcset="img/Tablet/facebook_icon_footer@Tablet.svg" media="(max-width: 1510px)">
-                <img src="img/Desktop/facebook_icon.svg" alt="facebook logo"></picture>
+        <li><a href="#" class="footer_img-wrap">
+            <img src="img/Desktop/facebook_icon@social.svg" alt="facebook logo" class="footer_img">
         </a></li>
-        <li><a href="#">
-            <picture>
-                <source srcset="img/Tablet/twitter_icon@Tablet_footer.svg" media="(max-width: 1510px)">
-                <img src="img/Desktop/twitter_icon.svg" alt="twitter logo"></picture>
+        <li><a href="#" class="footer_img-wrap">
+            <img src="img/Desktop/twitter_icon@social.svg" alt="twitter logo" class="footer_img">
         </a></li>
-        <li><a href="#">
-            <picture>
-                <source srcset="img/Tablet/linkedin_icon_footer@Tablet.svg" media="(max-width: 1510px)">
-                <img src="img/Desktop/linkedin_icon.svg" alt="linkedin logo"></picture>
+        <li><a href="#" class="footer_img-wrap">
+            <img src="img/Desktop/linkedin_icon@social.svg" alt="linkedin logo" class="footer_img">
         </a></li>
-        <li><a href="#">
-            <picture>
-                <source srcset="img/Tablet/pinterest_icon_footer@Tablet.svg" media="(max-width: 1510px)">
-                <img src="img/Desktop/pinterest_icon.svg" alt="pinterest logo"></picture>
+        <li><a href="#" class="footer_img-wrap">
+            <img src="img/Desktop/pinterest_icon@social.svg" alt="pinterest logo" class="footer_img">
         </a></li>
-        <li><a href="#">
-            <picture>
-                <source srcset="img/Tablet/instagram_icon_footer@Tablet.svg" media="(max-width: 1510px)">
-                <img src="img/Desktop/instagram_icon.svg" alt="instagram logo"></picture>
+        <li><a href="#" class="footer_img-wrap">
+            <img src="img/Desktop/instagram_icon@social.svg" alt="instagram logo" class="footer_img">
         </a></li>
-        <li><a href="#">
-            <picture>
-                <source srcset="img/Tablet/github_icon_footer@Tablet.svg" media="(max-width: 1510px)">
-                <img src="img/Desktop/github_icon.svg" alt="github logo"></picture>
+        <li><a href="#" class="footer_img-wrap">
+            <img src="img/Desktop/github_icon@social.svg" alt="github logo" class="footer_img">
         </a></li>
-        <li><a href="#">
-            <picture>
-                <source srcset="img/Tablet/rss_icon@Tablet_footer.svg" media="(max-width: 1510px)">
-                <img src="img/Desktop/rss_icon.svg" alt="rss logo"></picture>
+        <li><a href="#" class="footer_img-wrap">
+            <img src="img/Desktop/rss_icon@social.svg" alt="rss logo" class="footer_img">
         </a></li>
     </ul>
     <p class="footer_axit_paragraph">© 2015 Axure Themes</p>

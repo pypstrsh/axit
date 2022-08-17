@@ -103,8 +103,8 @@
 }
 
 .list_img {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 1510px) {
@@ -138,6 +138,38 @@
         font-size: 14px;
         line-height: 16px;
     }
+}
+
+@media (max-width: 1024px) {
+    .awesome_block {
+        width: 95%;
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .title:after {
+        width: 134px;
+        left: 33px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .awesome__block_list {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .list_subtitle {
+        width: 95%;
+        margin: 8px auto;
+    }
+
 }
 
 

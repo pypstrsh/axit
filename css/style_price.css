@@ -192,4 +192,63 @@
 
 }
 
+@media (max-width: 1024px) {
+    .price__block {
+        padding: 15px;
+    }
+
+    .price__cards {
+        flex-direction: column;
+        width: 95%;
+        align-items: center;
+
+    }
+
+    .price__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .price__title:after {
+        width: 134px;
+        left: 35px;
+    }
+
+    .price__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .price__cards li {
+        width: 100%;
+    }
+
+    .price__cards_items {
+        margin-top: 27px;
+    }
+
+    .price__cards-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .price__cards-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .price__cards-price {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .price__cards__futures-point {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .price__cards_items:nth-child(2) {
+        filter: none;
+    }
+}
 

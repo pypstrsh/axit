@@ -115,10 +115,29 @@
 
 .customer__wrap {
     display: flex;
-    align-items: center;
     margin-top: 66px;
     gap: 30px;
 }
+
+.customers__block_mobile-dots {
+    display: none;
+    gap: 50px;
+    margin-top: 32px;
+}
+
+.customers__block_mobile-dots .dot {
+    display: flex;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #86878B;
+    border-radius: 50%;
+}
+
+.dot:active {
+    background-color: #86878B;
+}
+
 
 @media (max-width: 1510px) {
     .customers__block {
@@ -140,18 +159,21 @@
         line-height: 16px;
     }
 
-    .customers__block_cards {
+    .customers__block-cards {
         margin-top: 32px;
         gap: 20px;
+
     }
 
     .customers__block_cards-message {
         width: 317px;
-        padding: 35px 10px;
+        padding: 45px 15px;
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .customers__block_cards-message:after {
-        right: 190px;
+        right: 167px;
         top: 81px;
 
         border-left: 20px solid transparent;
@@ -169,5 +191,63 @@
 
         font-size: 14px;
         line-height: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .customers__block {
+        width: 95%;
+        text-align: center;
+    }
+
+    .customers__block-cards li:nth-child(odd) {
+        display: none;
+    }
+
+    .customers__block-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .customers__block-title:after {
+        width: 134px;
+        left: 90px;
+    }
+
+    .customers__block-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .customers__block_cards-message {
+        width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+
+        padding: 45px 10px;
+    }
+
+    .customers__block_cards-message:after {
+        right: 200px;
+        top: 86px;
+    }
+
+    .customers__block_cards-name {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .customers__block_cards-post {
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .customers__block_cards-container {
+        text-align: start;
+    }
+
+    .customers__block_mobile-dots {
+        display: flex;
     }
 }

@@ -233,6 +233,7 @@
 
     .banner__block_form-input {
         width: 298px;
+
     }
 
     .banner__block_form-button {
@@ -243,6 +244,70 @@
         width: 183px;
         padding: 10px;
     }
+}
 
+@media (max-width: 1024px) {
+    .banner__block {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Mobile/banner_top_mobile.jpg) no-repeat;
+        background-size: cover;
+        padding-top: 85px;
+        padding-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
 
+    }
+
+    .banner__axit_logo {
+        display: none;
+    }
+
+    .banner__block_title {
+        width: 288px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .banner__block_title:after {
+        position: relative;
+        width: 134px;
+        left: 75px;
+    }
+
+    .banner__block_info {
+        width: 288px;
+        align-items: center;
+    }
+
+    .banner__block_subtitle {
+        width: 288px;
+        text-align: center;
+        margin-top: 42px;
+    }
+
+    .banner__block_download {
+        width: 288px;
+        margin-top: 42px;
+
+    }
+
+    .banner__block_form {
+        margin-top: 56px;
+        width: 288px;
+        margin-left: 0;
+    }
+
+    .banner__block_form-button {
+        width: 288px;
+        margin-top: 51px;
+    }
+
+    .banner__block_form-input {
+        width: 240px;
+        margin-top: 30px;
+    }
+
+    .banner__block_form-title {
+        font-size: 14px;
+        line-height: 19px;
+    }
 }
