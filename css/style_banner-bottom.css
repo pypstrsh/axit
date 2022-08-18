@@ -7,7 +7,7 @@
 
     padding: 50px;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Desktop/banner-bottom_background.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Desktop/banner-bottom_background.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -83,7 +83,7 @@
 
 @media (max-width: 1510px) {
     .banner2__block {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Tablet/banner_bottom_Tablet.jpg) no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Tablet/banner_bottom_Tablet.jpg) no-repeat center;
         background-size: cover;
     }
 
@@ -109,7 +109,7 @@
 
 @media (max-width: 1024px) {
     .banner2__block {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Mobile/banner_bottom@Mobile.jpg) no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Mobile/banner_bottom@Mobile.jpg) no-repeat center;
         background-size: cover;
         padding: 50px 0;
         text-align: center;
