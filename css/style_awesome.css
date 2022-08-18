@@ -6,6 +6,8 @@
 
     width: 1170px;
 
+    padding: 50px 0;
+
     margin: auto;
 }
 
@@ -17,8 +19,6 @@
     line-height: 42px;
     text-transform: uppercase;
     color: #000000;
-
-    padding-top: 50px;
 }
 
 .title:after {
@@ -59,7 +59,7 @@
     justify-content: center;
 
     box-sizing: border-box;
-    padding-bottom: 58px;
+
 }
 
 .awesome__block_list li:nth-child(2) {
@@ -158,6 +158,7 @@
     .subtitle {
         font-size: 13px;
         line-height: 15px;
+        padding: 40px 0;
     }
 
     .awesome__block_list {
@@ -168,6 +169,9 @@
     .list_subtitle {
         width: 95%;
         margin: 8px auto;
+    }
+    .awesome__block_list li:nth-child(2){
+        margin: 0;
     }
 
 }

@@ -111,13 +111,14 @@
     .banner2__block {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Mobile/banner_bottom@Mobile.jpg) no-repeat;
         background-size: cover;
-        padding: 10px;
+        padding: 50px 0;
         text-align: center;
     }
 
     .banner2__block_title {
         font-size: 24px;
         line-height: 28px;
+        padding: 0;
     }
 
     .banner2__block_title:after {
