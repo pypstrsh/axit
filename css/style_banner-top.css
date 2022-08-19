@@ -249,7 +249,7 @@
 
 @media (max-width: 1024px) {
     .banner__block {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Mobile/banner_top_mobile.jpg) no-repeat center;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Mobile/banner_top_mobile.jpg) no-repeat center;
         background-size: cover;
         padding-top: 85px;
         padding-bottom: 50px;
